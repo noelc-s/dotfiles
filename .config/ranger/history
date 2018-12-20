@@ -1,0 +1,50 @@
+show_hidden
+rename exp_4.png
+rename home-bg.jpg
+vim 
+vim mentions.html
+rename Hobbies.md
+open_with q
+rename Research.md
+rename PersonalProjects.md
+rename School.md
+open_wit
+rename Csomay-Shanklin_Noel_PURA_Video.ogg
+open_with 
+rename Hiking.md
+rename Baking.md
+:e
+E
+rename 2016-04-19-New-Post.markdown_
+rename 2018-04-19-Mammoth.markdown
+rename 2016-04-19-New-Post.markdown
+html
+rename hiking-bg.jpg
+rename climb.jpg
+rename 2018-12-15-minimalism.md
+rename CV.md
+rename Robotics.md
+rename 2018-12-04-Final-Project.markdown
+rename 2014-07-20-Catalina.markdown
+rename 2018-06-08-Seqouia.markdown
+rename postq.html
+rename 2017-12-28-fall2017.markdown
+rename 2017-12-28-Grand-Canyon.markdown
+rename 2016-12-28-Grand-Canyon.markdown
+rename 2018-12-15-Machining.md
+rename 2018-12-15-Machining.markdown
+rename 2018-02-19-n-pend.md
+e
+delete
+rename 2018-12-04-Cinelimb.markdown
+rename Cinelimb.md
+rename Template_Surface-Visualization.markdown
+rename Tenplate_Projector.markdown
+rename Template_Projector.markdown
+rename Template_Presentation.markdown
+rename Template_Matlab-Script.md
+rename Template_Post.markdown
+rename Template_Notebook.markdown
+rename 2018-06-08-MissionTrails.markdown
+touch 
+rename 2018-12-18-MissionTrails.markdown
