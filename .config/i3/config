@@ -169,6 +169,10 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 0 +5%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl -- set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
+bindsym XF86AudioPause exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
+bindsym XF86AudioNext exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
+bindsym XF86AudioPrev exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
+
 exec_always --no-startup-id xfce4-power-manager
 
 bindsym $mod+shift+minus move scratchpad
@@ -194,3 +198,5 @@ bindsym $mod+Shift+Return exec --no-startup-id ~/.config/scripts/connectMonitor.
 exec_always --no-startup-id compton --config ~/.config/compton/config 
 
 exec_always --no-startup-id i3-msg 'workspace 10;focus parent,kill; exec tilix -s ~/tilix2.session'
+
+

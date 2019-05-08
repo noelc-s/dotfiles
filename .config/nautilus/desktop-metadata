@@ -1,9 +1,14 @@
 [directory]
 nautilus-icon-view-keep-aligned=true
-nautilus-icon-view-layout-timestamp=1544286666
+nautilus-icon-view-layout-timestamp=1555859656
 nautilus-desktop-icon-size=48
 
 [trash]
-nautilus-icon-position-timestamp=1544286666
+nautilus-icon-position-timestamp=1555859656
 nautilus-icon-position=56,26
 icon-scale=1
+
+[rootfs.volume]
+nautilus-icon-position=56,146
+icon-scale=1
+nautilus-icon-position-timestamp=1555799888

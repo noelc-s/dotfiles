@@ -66,7 +66,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-export EDITOR='nvim'
+export EDITOR=nvim
 # else
 #   export EDITOR='mvim'
 # fi
@@ -145,3 +145,5 @@ export LD_LIBRARY_PATH
 alias n='nvim'
 eval "$(fasd --init auto)"
 alias config='/usr/bin/git --git-dir=/home/noel/.myconfig/ --work-tree=/home/noel'
+
+export PATH=${PATH}:~/android-sdk-linux/platform-tools

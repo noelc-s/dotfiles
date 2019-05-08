@@ -3,6 +3,7 @@ application/vnd.ms-powerpoint=evince.desktop;
 application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice_impress.desktop;evince.desktop;
 application/pdf=firefox.desktop;evince.desktop;libreoffice-draw.desktop;mupdf.desktop;zathura-pdf-poppler.desktop;
 text/markdown=firefox.desktop;
+text/x-tex=org.gnome.gedit.desktop;
 
 [Default Applications]
 application/pdf=zathura-pdf-poppler.desktop

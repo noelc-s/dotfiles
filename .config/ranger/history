@@ -1,41 +1,4 @@
-show_hidden
-rename exp_4.png
-rename home-bg.jpg
-vim 
-vim mentions.html
-rename Hobbies.md
-open_with q
-rename Research.md
-rename PersonalProjects.md
-rename School.md
-open_wit
-rename Csomay-Shanklin_Noel_PURA_Video.ogg
-open_with 
-rename Hiking.md
-rename Baking.md
-:e
-E
-rename 2016-04-19-New-Post.markdown_
-rename 2018-04-19-Mammoth.markdown
-rename 2016-04-19-New-Post.markdown
-html
-rename hiking-bg.jpg
-rename climb.jpg
-rename 2018-12-15-minimalism.md
-rename CV.md
-rename Robotics.md
-rename 2018-12-04-Final-Project.markdown
-rename 2014-07-20-Catalina.markdown
-rename 2018-06-08-Seqouia.markdown
-rename postq.html
-rename 2017-12-28-fall2017.markdown
-rename 2017-12-28-Grand-Canyon.markdown
-rename 2016-12-28-Grand-Canyon.markdown
-rename 2018-12-15-Machining.md
-rename 2018-12-15-Machining.markdown
 rename 2018-02-19-n-pend.md
-e
-delete
 rename 2018-12-04-Cinelimb.markdown
 rename Cinelimb.md
 rename Template_Surface-Visualization.markdown
@@ -48,3 +11,40 @@ rename Template_Notebook.markdown
 rename 2018-06-08-MissionTrails.markdown
 touch 
 rename 2018-12-18-MissionTrails.markdown
+rename 2017-12-15-pogacsa.markdown
+rename 2018-12-15-pogacsa.markdown
+rename 2018-12-21-gaiaPlot.md
+open_with vim
+rename cropwarped.png
+rename crop_warped.png
+rename land_awarped.png
+rename crop_awarped.png
+rename scwdc1.jpg
+rename dcwdc1.jpg
+rename dcwdc2.jpg
+rename dc1wdc1.jpg
+rename dc1wdc2.jpg
+rename achase_mod.jpg
+rename adbillboard_warped.png
+rename aczbillboard.jpeg
+rename Controls
+rename Csomay-Shanklin_Noel_HW1.docx
+rename Csomay-Shanklin_Noel.py
+rename bfs.py
+rename CaltechPhDApplicationPayment.png
+rename UmichPhDApplicationPayment.png
+rename MITPhDApplicationPayment.png
+rename Csomay-Shanklin_Noel_IAA_Request.pdf
+rename ClutcherMotionLabeled_old.png
+rename ClutcherMotionLabeled.png
+rename Domains_Compressor_Colored.png
+w
+rename ExperimentalHopperWithLine.png
+mkdir _papers
+touch tmp.markdown
+E
+e
+delete
+rename nvcs3_bkanwar3.py
+open_with 
+open_with q:q
