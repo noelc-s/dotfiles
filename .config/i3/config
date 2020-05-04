@@ -30,7 +30,7 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec tilix
+bindsym $mod+Return exec gnome-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -197,6 +197,6 @@ bindsym $mod+Shift+Return exec --no-startup-id ~/.config/scripts/connectMonitor.
 
 exec_always --no-startup-id compton --config ~/.config/compton/config 
 
-exec_always --no-startup-id i3-msg 'workspace 10;focus parent,kill; exec tilix -s ~/tilix2.session'
+# exec_always --no-startup-id i3-msg 'workspace 10;focus parent,kill; exec tilix -s ~/tilix2.session'
 
-
+for_window [class="com-mathworks-util-PostVMInit" title="^Fig"] float disable

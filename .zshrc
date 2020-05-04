@@ -9,7 +9,8 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="gentoo"
+ZSH_THEME="agnoster"
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -55,7 +56,6 @@ ZSH_THEME="gentoo"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -103,6 +103,8 @@ RPROMPT='%F{yellow}'$'\ue0b2''%K{yellow}%F{black}  $(git_prompt_info)%k%f'
 ZSH_THEME_GIT_PROMPT_PREFIX="("
 ZSH_THEME_GIT_PROMPT_SUFFIX=") "
 
+source $ZSH/oh-my-zsh.sh
+
 alias ls="colorls -a --sd"
 alias l="colorls -la --sd"
 alias mat="i3-msg workspace 8 && matlab &"
@@ -139,7 +141,7 @@ alias z='fasd_cd -d'     # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # cd with interactive selection
 alias v='f -e vim' # quick opening files with vim
 
-LD_LIBRARY_PATH=/usr/local/Wolfram/Mathematica/11.3/SystemFiles/Links/MathLink/DeveloperKit/Linux-x86-64/CompilerAdditions:$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=/usr/local/Wolfram/Mathematica/12.0/SystemFiles/Links/MathLink/DeveloperKit/Linux-x86-64/CompilerAdditions:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH
 
 alias n='nvim'
@@ -147,3 +149,9 @@ eval "$(fasd --init auto)"
 alias config='/usr/bin/git --git-dir=/home/noel/.myconfig/ --work-tree=/home/noel'
 
 export PATH=${PATH}:~/android-sdk-linux/platform-tools
+
+export matlabroot='/usr/local/MATLAB/R2018a'
+source /opt/ros/melodic/setup.zsh
+
+export LOCAL_BUILD=/usr/local/raisim_build
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$LOCAL_BUILD/lib
